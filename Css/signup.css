@@ -1,0 +1,98 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #d77bff, #8d8a93, #5151fb);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* ===== Navbar ===== */
+.bg-navcolor {
+  background-color: #e0e0e1;
+}
+
+.icon-box {
+  background-color: #cce4ff;
+  color: #004aad;
+  padding: 3px 3px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blue {
+  color: #1d4ed8;
+}
+
+.purple {
+  color: #a855f7;
+}
+
+/* ===== Sign Up Section ===== */
+.signup-section {
+  height: calc(100vh - 70px);
+}
+
+.signup-box {
+  width: 420px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.signup-box h3 {
+  color: #171725;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+/* ===== Input Fields ===== */
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border: 2px solid #e0e2e9;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #360bf7;
+  box-shadow: 0 0 5px rgba(54, 11, 247, 0.3);
+}
+
+/* ===== Button ===== */
+.btn-primary {
+  background-color: #360bf7 !important;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #280ab1 !important;
+  transform: translateY(-1px);
+}
+
+/* ===== Links ===== */
+.text-purple {
+  color: #a855f7 !important;
+  text-decoration: none;
+}
+
+.text-purple:hover {
+  text-decoration: underline;
+  color: #7c29cf !important;
+}

@@ -8,7 +8,7 @@
 
 /* Body Gradient */
 body {
-  background: linear-gradient(135deg, #a3bffa, #f1f5f9, #c7d2fe);
+  background: linear-gradient(135deg, #d77bff, #8d8a93, #5151fb);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -16,14 +16,17 @@ body {
 
 /* Navbar */
 .icon-box {
-  background-color: #e0e7ff;
-  color: #4338ca;
-  padding: 3px 3px;
-  border-radius: 10px;
-  font-weight: 600;
+    background-color: #cce4ff;
+    color: #004aad;
+    padding: 3px 3px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 .bg-navcolor {
-  background-color: #f1f5f9;
+  background-color: #e0e0e1;
 }
 .blue {
   color: #4338ca;
