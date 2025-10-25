@@ -1,0 +1,81 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Body Gradient */
+body {
+  background: linear-gradient(135deg, #a3bffa, #f1f5f9, #c7d2fe);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Navbar */
+.icon-box {
+  background-color: #e0e7ff;
+  color: #4338ca;
+  padding: 3px 3px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.bg-navcolor {
+  background-color: #f1f5f9;
+}
+.blue {
+  color: #4338ca;
+}
+.purple {
+  color: #6366f1;
+}
+
+/* Login Section */
+.login-section {
+  min-height: 90vh;
+}
+.login-box {
+  background: #ffffff;
+  border-radius: 15px;
+  width: 400px;
+}
+.login-box h3 {
+  color: #000000;
+  margin-top: 40px;
+}
+.input-group {
+  position: relative;
+  
+}
+.input-group input {
+  width: 100%;
+  padding: 12px 12px;
+  border: 1.8px solid #E0E2E9;
+  border-radius: 7px;
+  font-size: 15px;
+  outline: none;
+}
+.input-group input:focus{
+  border: 2px solid rgb(203, 209, 211);
+}
+.btn-primary {
+  background-color: #6366f1;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+.text-purple {
+  color: #6366f1;
+}
+.text-purple {
+  color: #0408bb;
+  text-decoration: none;
+}
+.text-purple:hover{
+  color: #6366f1;
+    transition: 0.2s;
+  text-decoration: underline;
+}
