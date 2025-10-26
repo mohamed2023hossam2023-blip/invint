@@ -1,25 +1,20 @@
-document.getElementById('loginForm').addEventListener('submit', async (e) => {
-      e.preventDefault();
 
-      const email = document.getElementById('email').value.trim();
-      const password = document.getElementById('password').value.trim();
+window.onbeforeunload = function() {
+    sessionStorage.clear();
+};
 
-      try {
-        const response = await fetch('http://localhost:3000/login', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email, password })
-        });
+document.getElementById("loginForm").onsubmit = function(e) {
+    e.preventDefault();
 
-        if (!response.ok) {
-          throw new Error('Server not responding');
-        }
+    var email = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
 
-        const data = await response.json();
-        alert('✅ Logged in successfully!');
-        console.log(data);
-      } catch (error) {
-        alert('⚠️ No server connection. Please check your backend.');
-        console.error(error);
-      }
-    });
+    sessionStorage.setItem("loginEmail", email);
+    sessionStorage.setItem("loginPassword", password);
+
+    // رسالة بعد التسجيل
+    alert("تم التسجيل بنجاح!");
+
+    // التحويل مباشرة بعد إغلاق الرسالة
+    window.location.href = "index.html";
+}
