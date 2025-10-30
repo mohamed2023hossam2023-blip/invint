@@ -16,12 +16,12 @@ const productList = document.getElementById("productList");
 
 // بيانات ثابتة (بدون API)
 const products = [
-  { id: 1, name: "Laptop Dell", price: 14500, imageUrl: "../images/gallery-01.png", description: "High-performance laptop for work and gaming." },
-  { id: 2, name: "Wireless Headphones", price: 750, imageUrl: "../images/gallery-02.png", description: "Enjoy premium sound quality wirelessly." },
-  { id: 3, name: "Smart Watch", price: 1250, imageUrl: "../images/gallery-03.jpg", description: "Track your fitness and notifications easily." },
-  { id: 4, name: "Gaming Keyboard", price: 1100, imageUrl: "../images/gallery-04.png", description: "RGB mechanical keyboard for gamers." },
-  { id: 5, name: "Tablet Pro", price: 9999, imageUrl: "../images/gallery-01.png", description: "A powerful tablet for all your creative needs." },
-  { id: 6, name: "Bluetooth Speaker", price: 450, imageUrl: "../images/gallery-02.png", description: "Portable speaker with rich sound." }
+  { id: 1, name: "Laptop Dell", price: 14500, imageUrl: "./images/gallery-01.png", description: "High-performance laptop for work and gaming." },
+  { id: 2, name: "Wireless Headphones", price: 750, imageUrl: "./images/gallery-02.png", description: "Enjoy premium sound quality wirelessly." },
+  { id: 3, name: "Smart Watch", price: 1250, imageUrl: "./images/gallery-03.jpg", description: "Track your fitness and notifications easily." },
+  { id: 4, name: "Gaming Keyboard", price: 1100, imageUrl: "./images/gallery-04.png", description: "RGB mechanical keyboard for gamers." },
+  { id: 5, name: "Tablet Pro", price: 9999, imageUrl: "./images/gallery-01.png", description: "A powerful tablet for all your creative needs." },
+  { id: 6, name: "Bluetooth Speaker", price: 450, imageUrl: "./images/gallery-02.png", description: "Portable speaker with rich sound." }
 ];
 
 // دالة لعرض الكروت
